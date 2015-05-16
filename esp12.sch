@@ -9074,7 +9074,7 @@ Source: www.kingbright.com</description>
 <instance part="U$2" gate="G$1" x="81.28" y="114.3" rot="MR180"/>
 <instance part="GND10" gate="1" x="63.5" y="104.14"/>
 <instance part="+3V6" gate="G$1" x="96.52" y="116.84"/>
-<instance part="R4" gate="G$1" x="-17.78" y="50.8" rot="R180"/>
+<instance part="R4" gate="G$1" x="-20.32" y="50.8" rot="R180"/>
 <instance part="R6" gate="G$1" x="12.7" y="33.02" rot="R270"/>
 <instance part="GND12" gate="1" x="12.7" y="22.86"/>
 <instance part="R7" gate="G$1" x="-20.32" y="40.64" rot="R180"/>
@@ -9423,7 +9423,7 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="38.1" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="50.8" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="-15.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="12.7" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -9483,7 +9483,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="JP1" gate="G$1" pin="DTR"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
