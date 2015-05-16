@@ -2657,21 +2657,24 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="17.78" y="17.78" size="1.4224" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R9" library="resistor" package="M1206" value="10k" x="16.51" y="16.51" smashed="yes" rot="R90">
-<attribute name="VALUE" x="13.97" y="17.78" size="1.4224" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="13.97" y="17.78" size="1.4224" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R10" library="resistor" package="M1206" value="10k" x="16.51" y="10.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="13.97" y="11.43" size="1.4224" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="13.97" y="11.43" size="1.4224" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R11" library="resistor" package="M1206" value="10k" x="34.798" y="26.924" rot="R90"/>
 <element name="R12" library="resistor" package="M1206" value="1k8" x="11.938" y="46.482" smashed="yes" rot="R90">
-<attribute name="VALUE" x="14.478" y="45.212" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="14.478" y="45.212" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R13" library="resistor" package="M1206" value="1k" x="7.62" y="46.482" smashed="yes" rot="R270">
-<attribute name="VALUE" x="5.08" y="47.752" size="1.27" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="5.08" y="47.752" size="1.27" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="LED1" library="led" package="1206" value="" x="40.64" y="46.736" rot="R270"/>
+<element name="LED1" library="led" package="1206" value="" x="40.64" y="46.736" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.164" y="49.276" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="38.1" y="48.006" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="R14" library="resistor" package="M1206" value="1k" x="36.322" y="46.736" smashed="yes" rot="R270">
-<attribute name="VALUE" x="33.782" y="48.006" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="33.782" y="48.006" size="1.27" layer="25" font="vector" rot="R270"/>
 </element>
 </elements>
 <signals>
