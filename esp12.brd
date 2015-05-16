@@ -1589,6 +1589,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="led">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="1206">
+<description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
+7022X Series SMT LEDs 1206 Package Size</description>
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622"/>
+<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1016" layer="51" curve="-84.547378"/>
+<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1016" layer="21" curve="-95.452622"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1016" layer="51" curve="-84.547378"/>
+<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1861,6 +1891,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R13" library="resistor" package="M1206" value="1k" x="7.62" y="46.482" smashed="yes" rot="R270">
 <attribute name="VALUE" x="5.08" y="47.752" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
+<element name="LED1" library="led" package="1206" value="" x="40.64" y="46.736" rot="R270"/>
+<element name="R14" library="resistor" package="M1206" value="1k" x="36.322" y="46.736" smashed="yes" rot="R270">
+<attribute name="VALUE" x="33.782" y="48.006" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -1935,6 +1969,9 @@ Please make sure your boards conform to these design rules.</description>
 <via x="24.13" y="20.32" extent="1-16" drill="0.6"/>
 <via x="27.432" y="20.32" extent="1-16" drill="0.6"/>
 <via x="13.97" y="20.32" extent="1-16" drill="0.6"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="40.64" y1="45.314" x2="43.18" y2="43.942" width="0.4064" layer="1"/>
+<wire x1="43.18" y1="43.942" x2="43.18" y2="41.91" width="0.4064" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC1" pad="4"/>
@@ -2112,6 +2149,14 @@ Please make sure your boards conform to these design rules.</description>
 <via x="29.464" y="23.5966" extent="1-16" drill="0.6"/>
 <wire x1="29.464" y1="23.5966" x2="29.464" y2="22.8854" width="0.4064" layer="1"/>
 <wire x1="29.464" y1="22.8854" x2="34.5694" y2="17.78" width="0.4064" layer="1"/>
+<contactref element="R14" pad="2"/>
+<wire x1="36.322" y1="45.336" x2="35.176" y2="45.336" width="0.4064" layer="1"/>
+<wire x1="35.176" y1="45.336" x2="34.29" y2="44.45" width="0.4064" layer="1"/>
+<via x="34.29" y="44.45" extent="1-16" drill="0.6"/>
+<wire x1="34.29" y1="44.45" x2="34.29" y2="34.63" width="0.4064" layer="16"/>
+<wire x1="34.29" y1="34.63" x2="33.274" y2="33.782" width="0.4064" layer="16"/>
+<wire x1="33.274" y1="33.782" x2="31.37" y2="33.782" width="0.4064" layer="16"/>
+<wire x1="31.37" y1="33.782" x2="31.03" y2="33.868" width="0.4064" layer="16"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="U$2" pad="GPIO2"/>
@@ -2231,6 +2276,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.766" y1="47.752" x2="7.62" y2="47.882" width="0.4064" layer="1"/>
 <wire x1="11.938" y1="47.882" x2="10.544" y2="47.882" width="0.4064" layer="1"/>
 <wire x1="10.544" y1="47.882" x2="9.906" y2="47.752" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="LED1" pad="A"/>
+<contactref element="R14" pad="1"/>
+<wire x1="36.322" y1="48.136" x2="40.544" y2="48.136" width="0.4064" layer="1"/>
+<wire x1="40.544" y1="48.136" x2="40.64" y2="48.158" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
