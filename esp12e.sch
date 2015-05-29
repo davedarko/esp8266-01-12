@@ -9799,7 +9799,7 @@ Source: www.kingbright.com</description>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M09" device=""/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS" value="AVR_SPI"/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M07" device=""/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M07" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
