@@ -9746,7 +9746,7 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR" value="117\33"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="10uF"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>

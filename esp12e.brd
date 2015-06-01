@@ -2721,7 +2721,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="IC1" library="v-reg" package="SOT223" value="117\33" x="12.7" y="7.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.2588" y="4.826" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C1" library="resistor" package="C1206" value="10uF" x="11.43" y="2.54" smashed="yes">
+<element name="C1" library="resistor" package="C1206" value="100nF" x="11.43" y="2.54" smashed="yes">
 <attribute name="NAME" x="5.08" y="2.667" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="5.08" y="0.889" size="1.27" layer="25" font="vector"/>
 </element>
