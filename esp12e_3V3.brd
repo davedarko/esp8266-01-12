@@ -12,16 +12,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -32,9 +32,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -2653,7 +2653,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="LaenPCBOrder *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2717,7 +2717,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="1000mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -2862,9 +2862,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="40.593" y="3.08" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="40.593" y="2.064" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="U$2" library="esp8266modules" package="ESP01" value="ESP01" x="25.4" y="38.1" smashed="yes">
-<attribute name="VALUE" x="21.702" y="37.006" size="1.6764" layer="25" font="vector"/>
-</element>
+<element name="U$2" library="esp8266modules" package="ESP01" value="ESP01" x="25.4" y="38.1" smashed="yes"/>
 <element name="R9" library="resistor" package="M1206" value="10k" x="20.32" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="17.78" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
@@ -2892,7 +2890,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="33.782" y="44.958" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="U$3" library="esp8266modules" package="ESP12E" value="ESP-12E /-01" x="25.4" y="36.83" smashed="yes">
-<attribute name="VALUE" x="16.938" y="22.39" size="1.6764" layer="25" font="vector"/>
+<attribute name="VALUE" x="36.792" y="25.066" size="1.6764" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="JP4" library="SparkFun-Connectors" package="1X07" value="" x="11.43" y="26.67" smashed="yes" rot="R90">
 <attribute name="VALUE" x="14.605" y="25.4" size="1.27" layer="27" rot="R90"/>
