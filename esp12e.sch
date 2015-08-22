@@ -10311,6 +10311,7 @@ Source: www.kingbright.com</description>
 <wire x1="48.26" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CH_PD"/>
 <pinref part="JP4" gate="G$1" pin="5"/>
+<label x="40.64" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CH_PD"/>
