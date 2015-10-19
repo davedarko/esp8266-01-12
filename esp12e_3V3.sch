@@ -10787,6 +10787,7 @@ Source: www.kingbright.com</description>
 <wire x1="48.26" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="RESET"/>
 <pinref part="JP4" gate="G$1" pin="7"/>
+<label x="50.8" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S2" gate="1" pin="P"/>
