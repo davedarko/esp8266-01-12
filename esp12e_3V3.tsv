@@ -1,32 +1,32 @@
-"Part"	"Value"	"Device"	"Package"	"Description"	"MF"	"MPN"	"OC_FARNELL"	"OC_NEWARK"	"PROD_ID"	
-"C1"	"100nF"	"C-EUC1206"	"C1206"	"CAPACITOR, European symbol"	""	""	""	""	""	
-"C2"	"10uF"	"C-EUC1206"	"C1206"	"CAPACITOR, European symbol"	""	""	""	""	""	
-"C3"	"100nF"	"C-EUC1206"	"C1206"	"CAPACITOR, European symbol"	""	""	""	""	""	
-"CN1"	"1X4-CLEANBIG"	"1X4-CLEANBIG"	"1X04-CLEANBIG"	"4-pin connector"	""	""	""	""	""	
-"CN2"	"1X4-CLEANBIG"	"1X4-CLEANBIG"	"1X04-CLEANBIG"	"4-pin connector"	""	""	""	""	""	
-"CN3"	"1X4-CLEANBIG"	"1X4-CLEANBIG"	"1X04-CLEANBIG"	"4-pin connector"	""	""	""	""	""	
-"IC1"	"117\33"	"LD117AS33TR"	"SOT223"	"Low drop fixed and adjustable positive voltage regulators 1 A"	""	""	""	""	""	
-"JP1"	"FTDI_DEVICE"	"FTDI_DEVICE"	"FTDI_DEVICE_SIDE"	"Connector which mates to FTDI basic or FTDI cable."	""	""	""	""	""	
-"JP3"	"USB_MICROB_PLUGCONN-11752"	"USB_MICROB_PLUGCONN-11752"	"USB-B-MICRO-SMD_V03"	"USB Micro-B connectors"	""	""	""	""	"CONN-11752"	
-"JP4"	""	"M07"	"1X07"	"Header 7"	""	""	""	""	""	
-"JP5"	""	"M07"	"1X07"	"Header 7"	""	""	""	""	""	
-"JP6"	""	"PINHD-1X3"	"1X03"	"PIN HEADER"	""	""	""	""	""	
-"JP7"	""	"M07"	"1X07"	"Header 7"	""	""	""	""	""	
-"JP8"	"M02PTH"	"M02PTH"	"1X02"	"Standard 2-pin 0.1\" header. Use with"	""	""	""	""	""	
-"JP9"	""	"M07"	"1X07"	"Header 7"	""	""	""	""	""	
-"JP13"	"M09"	"M09"	"1X09"	"Header 9"	""	""	""	""	""	
-"JP14"	"M09"	"M09"	"1X09"	"Header 9"	""	""	""	""	""	
-"LED1"	""	"LEDSMT1206"	"1206"	"LED"	""	""	""	""	""	
-"PCB1"	"PCB_DP_SQUARE-5X5"	"PCB_DP_SQUARE-5X5"	"DP5050_V1"	"Dangerous Prototypes Standard Square PCB sizes"	""	""	""	""	""	
-"R3"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R5"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R9"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R10"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R11"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R12"	"39k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R13"	"10k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"R14"	"1k"	"R-EU_M1206"	"M1206"	"RESISTOR, European symbol"	""	""	""	""	""	
-"S1"	"GPIO0"	"10-XX"	"B3F-10XX"	"OMRON SWITCH"	""	"B3F-1000"	"176432"	"36M3542"	""	
-"S2"	"RST"	"10-XX"	"B3F-10XX"	"OMRON SWITCH"	""	"B3F-1000"	"176432"	"36M3542"	""	
-"U$2"	"ESP01"	"ESP01"	"ESP01"	"ESP8266 Wifi module 01"	""	""	""	""	""	
-"U$3"	"ESP-12E /-01"	"ESP12E"	"ESP12E"	""	""	""	""	""	""		
+'Part'	'Value'	'Device'	'Package'	'Description'	'MF'	'MPN'	'OC_FARNELL'	'OC_NEWARK'	'PROD_ID'	
+'C1'	'100nF'	'C-EUC1206'	'C1206'	'CAPACITOR, European symbol'	''	''	''	''	''	
+'C2'	'10uF'	'C-EUC1206'	'C1206'	'CAPACITOR, European symbol'	''	''	''	''	''	
+'C3'	'100nF'	'C-EUC1206'	'C1206'	'CAPACITOR, European symbol'	''	''	''	''	''	
+'CN1'	'1X4-CLEANBIG'	'1X4-CLEANBIG'	'1X04-CLEANBIG'	'4-pin connector'	''	''	''	''	''	
+'CN2'	'1X4-CLEANBIG'	'1X4-CLEANBIG'	'1X04-CLEANBIG'	'4-pin connector'	''	''	''	''	''	
+'CN3'	'1X4-CLEANBIG'	'1X4-CLEANBIG'	'1X04-CLEANBIG'	'4-pin connector'	''	''	''	''	''	
+'IC1'	'117\33'	'LD117AS33TR'	'SOT223'	'Low drop fixed and adjustable positive voltage regulators 1 A'	''	''	''	''	''	
+'JP1'	'FTDI_DEVICE'	'FTDI_DEVICE'	'FTDI_DEVICE_SIDE'	'Connector which mates to FTDI basic or FTDI cable.'	''	''	''	''	''	
+'JP3'	'USB_MICROB_PLUGCONN-11752'	'USB_MICROB_PLUGCONN-11752'	'USB-B-MICRO-SMD_V03'	'USB Micro-B connectors'	''	''	''	''	'CONN-11752'	
+'JP4'	''	'M07'	'1X07'	'Header 7'	''	''	''	''	''	
+'JP5'	''	'M07'	'1X07'	'Header 7'	''	''	''	''	''	
+'JP6'	''	'PINHD-1X3'	'1X03'	'PIN HEADER'	''	''	''	''	''	
+'JP7'	''	'M07'	'1X07'	'Header 7'	''	''	''	''	''	
+'JP8'	'M02PTH'	'M02PTH'	'1X02'	'Standard 2-pin 0.1" header. Use with'	''	''	''	''	''	
+'JP9'	''	'M07'	'1X07'	'Header 7'	''	''	''	''	''	
+'JP13'	'M09'	'M09'	'1X09'	'Header 9'	''	''	''	''	''	
+'JP14'	'M09'	'M09'	'1X09'	'Header 9'	''	''	''	''	''	
+'LED1'	''	'LEDSMT1206'	'1206'	'LED'	''	''	''	''	''	
+'PCB1'	'PCB_DP_SQUARE-5X5'	'PCB_DP_SQUARE-5X5'	'DP5050_V1'	'Dangerous Prototypes Standard Square PCB sizes'	''	''	''	''	''	
+'R3'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R5'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R9'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R10'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R11'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R12'	'39k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R13'	'10k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'R14'	'1k'	'R-EU_M1206'	'M1206'	'RESISTOR, European symbol'	''	''	''	''	''	
+'S1'	'GPIO0'	'10-XX'	'B3F-10XX'	'OMRON SWITCH'	''	'B3F-1000'	'176432'	'36M3542'	''	
+'S2'	'RST'	'10-XX'	'B3F-10XX'	'OMRON SWITCH'	''	'B3F-1000'	'176432'	'36M3542'	''	
+'U$2'	'ESP01'	'ESP01'	'ESP01'	'ESP8266 Wifi module 01'	''	''	''	''	''	
+'U$3'	'ESP-12E /-01'	'ESP12E'	'ESP12E'	''	''	''	''	''	''		
